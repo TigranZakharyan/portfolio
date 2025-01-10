@@ -1,0 +1,19 @@
+import mock10 from '../assets/images/mock10.png';
+import '../assets/styles/Project.scss';
+
+function Project() {
+    return(
+    <div className="projects-container" id="projects">
+        <h1>Personal Projects</h1>
+        <div className="projects-grid">
+            <div className="project">
+                <a href="https://tigranzakharyan.github.io/global/" target="_blank" rel="noreferrer"><img src={mock10} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://tigranzakharyan.github.io/global/" target="_blank" rel="noreferrer"><h2>GlobalUI</h2></a>
+                <p>A website showing my Front End skills, the application is created with HTML, SASS and JS languages using Gulp builder</p>
+            </div>
+        </div>
+    </div>
+    );
+}
+
+export default Project;
