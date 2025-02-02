@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://tigranzakharyan.neylify.app/sitemap.xml
