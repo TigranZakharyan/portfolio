@@ -10,7 +10,7 @@ function Project() {
         <h2>Personal Projects</h2>
         <div className="projects-grid">
             <div className="project">
-                <a target="_blank" rel="noreferrer"><Image src={mock10} className="zoom" alt="thumbnail" /></a>
+                <a target="_blank" rel="noreferrer"><Image src={mock10} className="zoom" alt="thumbnail"  /></a>
                 <a target="_blank" rel="noreferrer"><h2>GlobalUI</h2></a>
                 <p>A website showing my Front End skills, the application is created with HTML, SASS and JS languages using Gulp builder</p>
             </div>
