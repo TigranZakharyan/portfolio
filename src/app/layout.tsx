@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Tigran Zakharyan",
   description: "Web developer's portfolio",
   keywords: ["Tigran Zakharyan"],
